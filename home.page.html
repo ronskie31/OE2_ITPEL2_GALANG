@@ -1,0 +1,76 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>Bulacan Database</ion-title>
+
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+
+
+    <ion-card>
+        <ion-card-header>
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/305256583_632204185309905_1926129810097460831_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=8gRYdPR29yMAX_uMg8g&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKH3dPNegONjHDo-0b09CMBCmbbpKiLJIaDKOOD_T5u1Q&oe=635B0C91"
+                alt="app-logo">
+            <br>
+            <ion-card-title> User Registration </ion-card-title>
+
+
+        </ion-card-header>
+    </ion-card>
+
+    <form>
+        <ion-item lines="full">
+            <ion-label position="floating">First name</ion-label>
+            <ion-input type="text" required></ion-input>
+        </ion-item>
+
+        <ion-item lines="full">
+            <ion-label position="floating">Last name</ion-label>
+            <ion-input type="text" required></ion-input>
+        </ion-item>
+        <ion-list>
+            <br>
+            <ion-radio-group value="g1">
+                <ion-list-header>
+                    <ion-label>Gender</ion-label>
+                </ion-list-header>
+                <ion-item>
+                    <ion-label>Male</ion-label>
+                    <ion-radio slot="start" value="male"></ion-radio>
+                </ion-item>
+
+                <ion-item>
+                    <ion-label>Female</ion-label>
+                    <ion-radio slot="start" value="female"></ion-radio>
+                </ion-item>
+                <br>
+
+            </ion-radio-group>
+        </ion-list>
+        <ion-item lines="full">
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="text" required></ion-input>
+        </ion-item>
+        <ion-item lines="full">
+            <ion-label position="floating">Contact Number</ion-label>
+            <ion-input type="text" required></ion-input>
+        </ion-item>
+        <ion-item lines="full">
+            <ion-label position="floating">Address</ion-label>
+            <ion-input type="text" required></ion-input>
+        </ion-item>
+        <br>
+
+        <ion-row>
+
+            <ion-col>
+                <div style="text-align: center  !important;  font-size: 30px;">
+                    <ion-button type="submit">Sign Up</ion-button>
+                </div>
+            </ion-col>
+        </ion-row>
+    </form>
+</ion-content>
